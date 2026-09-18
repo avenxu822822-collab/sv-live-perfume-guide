@@ -3,7 +3,7 @@
   "short_name": "SV香水",
   "description": "SCARLET VINCI 香水直播查询与公屏文案复制工具",
   "lang": "zh-CN",
-  "start_url": "./index.html?v=live4",
+  "start_url": "./index.html?v=live6",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",

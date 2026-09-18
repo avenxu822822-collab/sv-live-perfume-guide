@@ -1,6 +1,6 @@
-const CACHE = 'sv-perfume-live-v5-password';
+const CACHE = 'sv-perfume-live-v6-mobile-password';
 const ASSETS = [
-  './index.html?v=live5',
+  './index.html?v=live6',
   './manifest-live-v4.webmanifest',
   './sv-live-original-180-v4.png',
   './sv-live-original-192-v4.png',
@@ -29,7 +29,7 @@ self.addEventListener('fetch', event => {
       const copy = response.clone();
       caches.open(CACHE).then(cache => cache.put(event.request, copy));
       return response;
-    }).catch(() => caches.match(event.request).then(cached => cached || caches.match('./index.html?v=live5'))));
+    }).catch(() => caches.match(event.request).then(cached => cached || caches.match('./index.html?v=live6'))));
     return;
   }
   event.respondWith(
