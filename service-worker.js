@@ -1,4 +1,4 @@
-const CACHE = 'sv-perfume-live-data-20261016210458';
+const CACHE = 'sv-perfume-live-data-20261101144941';
 const ASSETS = [
   './index.html?v=live6',
   './manifest-live-v4.webmanifest',
