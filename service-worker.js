@@ -1,4 +1,4 @@
-const CACHE = 'sv-perfume-live-data-20261113-no-price-or-code';
+const CACHE = 'sv-perfume-live-data-20261113-two-access-levels';
 const ASSETS = [
   './index.html?v=live6',
   './manifest-live-v4.webmanifest',
